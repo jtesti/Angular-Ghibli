@@ -1,0 +1,13 @@
+<app-main></app-main>
+<div class="wrapper">  
+    <div class="gallery">
+      <div class="item" *ngFor="let item of data">
+        <h1>{{ item.title }}</h1>
+        <p>{{ item.release_date }}</p>
+        <div class="imgs">
+          <img [src]="item.image" alt="item.title">
+        </div>
+      </div>
+    </div>
+    <app-footer></app-footer>
+</div>

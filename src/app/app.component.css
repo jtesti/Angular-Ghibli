@@ -1,0 +1,19 @@
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px;
+    align-items: flex-end;
+    font-size: 16px;
+    color: rgba(177, 31, 31, 0.699);
+}
+
+img {
+    max-width: 100%;
+}
+
